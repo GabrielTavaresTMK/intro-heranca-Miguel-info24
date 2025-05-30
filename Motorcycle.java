@@ -1,17 +1,17 @@
 public class Motorcycle extends Auto {
-    private int typeOfHandlebar;
+    private String typeOfHandlebar;
 
-    public Motorcycle(String mark, String model, int year, int typeOfHandlebar) 
+    public Motorcycle(String mark, String model, int year, String typeOfHandlebar) 
     {
         super(mark, model, year);
         this.typeOfHandlebar = typeOfHandlebar;
     }
 
-    public int getTypeOfHandlebar()
+    public String getTypeOfHandlebar()
     {
         return typeOfHandlebar;
     }
-    public void setTypeOfHandlebar(int typeOfHandlebar)
+    public void setTypeOfHandlebar(String typeOfHandlebar)
     {
         this.typeOfHandlebar = typeOfHandlebar;
     }
